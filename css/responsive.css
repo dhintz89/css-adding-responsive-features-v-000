@@ -1,4 +1,4 @@
-
+/* smaller screens */
 @media only screen and (max-width: 1100px) {
   .wrapper {
     width: 90%;
@@ -9,5 +9,17 @@
     width: auto;
     top: 82px;
     right: 4px;
+  }
+}
+
+/* tablets */
+@media only screen and (max-width: 900px) {
+  body {
+    font-size: 85%;
+  }
+  
+  #logo h1 {
+    height: 35px;
+    width: ;
   }
 }
